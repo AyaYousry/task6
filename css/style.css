@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(208, 171, 242);
+}
+.all{
+    
+    margin: 100px auto ;
+    width: 500px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.head{
+    background-color: white;
+    color: rgb(208, 171, 242);
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.head input {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    width: calc(100% - 15px);
+    color: black;
+    font-size: 20px;
+}
+.head button{
+    background-color: white;
+    border: none;
+    color: rgb(143, 50, 231);
+    font-weight: bold;
+    cursor: pointer;
+}
+.body{
+    background-color: white;
+    color:black;
+}
+.body button{
+    background-color: rgb(143, 50, 231);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 90%;
+    margin-bottom: 10px;
+    cursor: pointer;
+   
+}
+
+.body > span {
+    display: block;
+    background-color:white;
+    padding: 10px;
+  }
+.body > span:not(:last-child) {
+    margin-bottom: 10px;
+  }
+ .body .task-box .delete {
+   
+    background-color:rgb(208, 171, 242);
+    padding: 4px 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ .body .task-box.finished {
+    text-decoration: line-through;
+  }
